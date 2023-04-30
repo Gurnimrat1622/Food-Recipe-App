@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="725dp"
+        android:contentDescription="Recepies"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="285dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="580dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="-220dp"
+                android:layout_marginBottom="532dp"
+                android:text="Chole Bhature"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F30B0B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="-260dp"
+                android:layout_marginBottom="532dp"
+                android:text="Chole bhature is a popular North Indian dish consisting of spicy chickpeas (chole) and deep-fried bread (bhature)."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textColor="@color/teal_200"
+                android:textStyle="bold"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="-380dp"
+                android:layout_marginBottom="532dp"
+                />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-140dp"
+                android:layout_marginTop="320dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:text="@string/A"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.341"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="-380dp"
+                android:text="Steps"
+               android:layout_marginTop="1200dp"
+                android:textColor="@color/teal_200"
+                android:textSize="24sp"
+               />
+            <TextView
+                android:justificationMode="inter_word"
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1240dp"
+                android:layout_marginLeft="-60dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/B"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
